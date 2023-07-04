@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from django.template import loader
-from forms import MyForm
+from .forms import MyForm
 
 # Create your views here.
 def my_form(request):
